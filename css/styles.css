@@ -204,6 +204,18 @@ img {
 .features-item {
     width: calc((100% - 72px) / 4);
 }
+.features-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background: var(--light-gray-color);
+    border-radius: 4px;
+}
+.features-icon-container .icon {
+    width: 64px;
+    height: 64px;
+}
 .features-title {
     margin: 0 0 8px;
     font-family: 'Roboto';
@@ -226,7 +238,6 @@ img {
 }
 /*Section our-work*/
 .our-work {
-    margin-bottom: 72px;
     padding: 0 0 120px;
 }
 .our-work-list {
@@ -252,6 +263,7 @@ img {
 }
 .section-title {
     margin-bottom: 72px;
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -387,7 +399,6 @@ footer .logo span {
     margin: 0;
     padding: 0px;
     list-style: none;
-    text-align: center;
     column-gap: 24px;
     row-gap: 48px;
 }
