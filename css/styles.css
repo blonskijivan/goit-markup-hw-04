@@ -321,19 +321,10 @@ img {
 .team-icon-container {
 
 }
-.team-icon-container .social-media-item {
+.team-social-media-item {
     width: 40px;
     height: 40px;
 } 
-.team-icon-container .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: var(--active-cl);
-    border-radius: 50%;
-}
 .team-social-link {
     display: flex;
     align-items: center; 
