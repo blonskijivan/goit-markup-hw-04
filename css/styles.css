@@ -385,6 +385,9 @@ img {
 .footer-inner {
     display: flex;
 }
+.footer-info {
+    margin-right: 120px;
+} 
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
